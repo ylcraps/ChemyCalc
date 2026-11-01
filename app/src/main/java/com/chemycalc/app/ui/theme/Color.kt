@@ -1,76 +1,16 @@
-package com.chemycalc.app.data
+package com.chemycalc.app.ui.theme
 
-object ChemistryData {
-    data class Topic(
-        val title: String,
-        val category: String,
-        val summary: String,
-        val keywords: List<String>
-    )
+import androidx.compose.ui.graphics.Color
 
-    val categories = listOf(
-        "Основы",
-        "Строение",
-        "Соединения",
-        "Реакции",
-        "Органика",
-        "Элементы"
-    )
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
 
-    val topics = listOf(
-        Topic(
-            title = "Периодический закон",
-            category = "Основы",
-            summary = "Периодическая система и закономерности изменения свойств элементов по периодам и группам.",
-            keywords = listOf("период", "группа", "металлы", "неметаллы")
-        ),
-        Topic(
-            title = "Строение атома",
-            category = "Строение",
-            summary = "Ядро, электроны, атомные уровни, электронные конфигурации и валентность.",
-            keywords = listOf("электрон", "ядро", "элемент", "валентность")
-        ),
-        Topic(
-            title = "Классы веществ",
-            category = "Соединения",
-            summary = "Оксиды, кислоты, основания, соли и правила их распознавания.",
-            keywords = listOf("оксид", "кислота", "основание", "соль")
-        ),
-        Topic(
-            title = "Химические реакции",
-            category = "Реакции",
-            summary = "Типы реакций: соединения, разложения, замещения, обмена и условия протекания.",
-            keywords = listOf("реакция", "обмен", "замещение", "равновесие")
-        ),
-        Topic(
-            title = "Гидролиз",
-            category = "Реакции",
-            summary = "Гидролиз солей и его влияние на среду раствора, кислотность и щелочность.",
-            keywords = listOf("гидролиз", "соль", "рН", "кислота")
-        ),
-        Topic(
-            title = "Галогены",
-            category = "Элементы",
-            summary = "Хлор, бром, йод: свойства, применение, взаимодействие с металлами и водородом.",
-            keywords = listOf("галоген", "хлор", "йод", "бром")
-        ),
-        Topic(
-            title = "Изомеры",
-            category = "Органика",
-            summary = "Структурные и пространственные изомеры и способы определения их вида.",
-            keywords = listOf("изомерия", "органика", "структура", "углеводород")
-        ),
-        Topic(
-            title = "Вычисление массов��й доли",
-            category = "Основы",
-            summary = "Формулы массовой доли вещества, процентное содержание и практические задачи.",
-            keywords = listOf("массовая доля", "процент", "формула", "вычисление")
-        ),
-        Topic(
-            title = "Растворы и электролиты",
-            category = "Соединения",
-            summary = "Свойства растворов, диссоциация, сильные и слабые электролиты.",
-            keywords = listOf("раствор", "электролит", "диссоциация", "ион")
-        )
-    )
-}
+val Purple40 = Color(0xFF6650a4)
+val PurpleGrey40 = Color(0xFF625b71)
+val Pink40 = Color(0xFF7D5260)
+
+val PrimaryBlue = Color(0xFF2854B4)
+val SecondaryTeal = Color(0xFF1FB6A6)
+val ColorSchemeBackground = Color(0xFFF5F7FB)
+val ColorSchemeSurface = Color(0xFFFFFFFF)
